@@ -1,0 +1,158 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+:root{
+    --main_theme:rgb(59, 215, 243);
+}
+body{
+    background-color: rgb(17, 19, 33);
+}
+#Home .btn1{
+    background-color: rgb(59, 215, 243);
+    border: 1px solid rgb(17, 19, 33);
+    border-radius:7px;
+}
+#Home .btn2{
+    background-color: rgb(17, 19, 33);
+    border: 2px solid rgb(59, 215, 243);
+    border-radius: 7px;
+}
+#Home{
+    display: block;
+    
+}
+#Home img{
+    display: flex;
+    align-content: center;
+    width:400px;
+    margin-left: 150px;
+}
+#Home .col-lg-6{
+   margin-top: 30px;
+}
+#Home .icon i{
+    margin-top: 30px;
+    color: white;
+}
+#Home h2::before{
+    content:' ';
+    width:330px;
+    height: 330px;
+    background-color:rgb(59, 215, 243) ;
+    position: absolute;
+    z-index: -1;
+    border-radius: 50%;
+    top: 27%;
+    left: 62%;
+    box-shadow:3px 3px 3px  rgb(251, 252, 252);
+}
+#About img{
+    display: flex;
+    align-content: center;
+    width:350px;
+    margin-left: 26px;
+    margin-top: 30px;
+}
+#About .col-lg-6{
+    text-align: center  ;
+    color: white;
+}
+#About .btn{
+   margin-top: 30px;
+   background-color:rgb(59, 215, 243) ;
+   border-radius: 50px;
+   color: white;
+}
+#About h2::before{
+    content:' ';
+    width:340px;
+    height: 340px;
+    background-color:rgb(17, 19, 33) ;
+    position: absolute;
+    z-index: -1;
+    border-radius: 50%;
+    top: 91%;
+    left: 10%;
+    border: 13px solid rgb(59, 215, 243) ;
+    border-radius: 50%;
+}
+#Service{
+    margin-top: 200px;
+    text-align: center;
+}
+#Service button{
+    background-color: rgb(59, 215, 243);
+    color: white;
+    border: 1px solid rgb(59, 215, 243);
+    border-radius: 50px;
+}
+#Service .col-lg-4{
+    background-color: rgb(45, 46, 60);
+    color: white;
+    border-radius: 15px;
+    width: 370px;
+    margin-left: 60px;
+    height: 63vh;
+
+}
+#Service .btn{
+    margin-top: 60px;
+}
+#Service i{
+    size: 50%;
+}
+#Bro .col-lg-6{
+    text-align: center;
+    color: white;
+    background-color:rgb(45, 46, 60) ;
+    width: 650px;
+    margin-left: 10px;
+    height:125vh ;
+    border-bottom-left-radius: 70px;
+    
+}
+#Bro img{
+    width: 100%;
+    height: 100vh;
+}
+#Bro .col-lg-6 h3{
+    font-family: "Pacifico", cursive;
+    color: var(--main_theme);
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+#Project{
+    margin-top: 100px ;
+    color: white; 
+}
+#Project img{
+    width: 100%;
+}
+#Project h3{
+    margin: 150px 150px;
+    font-family: "Irish Grover", system-ui;
+}
+footer{
+    color: white;
+    margin-top: 100px;
+}
+footer input{
+    width: 100%;
+    color: white;
+    background-color: rgb(45, 46, 60);
+    border-radius: 10px;
+    border: 1px solid rgb(45, 46, 60);
+    outline: none;
+   margin-bottom: 20px;
+   height: 7vh;
+}
+footer .col-12 input{
+    height:20vh ;
+    text-align: center;
+
+}
+footer .row span{
+    margin-top: 70px;
+    margin-bottom: 30px;
+    font-size: 13px;
+}
